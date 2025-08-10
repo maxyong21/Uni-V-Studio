@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-V Studio - Creative Digital Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Uni-V<span>Studio</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Welcome to <span class="highlight">Uni-V Studio</span></h1>
+                    <h2 class="typewriter">Creative Web Solutions</h2>
+                    <p class="hero-description">
+                        We craft modern, responsive websites and powerful web applications 
+                        using cutting-edge technologies. Let's bring your digital vision to life.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-elements">
+                        <div class="floating-card">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-database"></i>
+                            <span>Database</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+ <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our Projects</h2>
+            <p>Check out some of ours recent projects</p>
+        </div>
+        <div class="portfolio-grid">
+
+            <!-- Project 1 -->
+            <div class="portfolio-item" data-category="fullstack">
+                <div class="portfolio-image">
+                    <img src="logo.jpg" alt="HyperText Edu">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>HyperText Edu</h3>
+                            <p>Web Quiz for HyperText Markup Language</p>
+                            <div class="portfolio-links">
+                                <a href="https://github.com/maxyong21/Project" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h3>HyperText Edu – Web Quiz for HTML</h3>
+                    <p>A web-based platform helping students master HTML with gamified quizzes, coding challenges, and role-based content management.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Css</span>
+                        <span class="tag">Gamification</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-item" data-category="desktop">
+                <div class="portfolio-image">
+                    <img src="consultationasslogo.png" alt="APU Psychology Consultation System">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>APU Psychology Consultation Management System</h3>
+                            <p>Java-based desktop application for appointment scheduling</p>
+                            <div class="portfolio-links">
+                                <a href="https://github.com/maxyong21/Project" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h3>APU Psychology Consultation System</h3>
+                    <p>Java desktop app for managing consultation appointments between psychology students and lecturers, with booking and feedback features.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Swing</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio-item" data-category="game">
+                <div class="portfolio-image">
+                    <img src="capstonelogo.png" alt="Super Maths Bros">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Super Maths Bros Escape Room</h3>
+                            <p>Game-based learning for differentiation in algebra & calculus</p>
+                            <div class="portfolio-links">
+                                <a href="https://github.com/maxyong21/Project" target="_blank" class="portfolio-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Super Maths Bros – Differentiation Escape Room</h3>
+                    <p>Gamified learning system for mastering differentiation, with interactive NPC lessons, quizzes, rewards, and real-time tracking for lecturers.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Gamification</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <p>We provide complete website solutions — from design to deployment</p>
+        </div>
+        <div class="services-grid">
+
+            <!-- Frontend -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>We craft responsive, visually appealing, and user-friendly websites using the latest web technologies.</p>
+                <ul class="service-features">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <!-- Backend -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <p>We build secure, scalable, and efficient server-side applications to power your website or system.</p>
+                <ul class="service-features">
+                    <li>Python</li>
+                    <li>PHP</li>
+                    <li>C#</li>
+                </ul>
+            </div>
+
+            <!-- Database -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Database Solutions</h3>
+                <p>We design and optimize databases to store, manage, and secure your business data effectively.</p>
+                <ul class="service-features">
+                    <li>MySQL</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>user123@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>016-2222222</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="whatsapp-button">
+                        <a href="https://wa.me/15551234567" target="_blank" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Uni-V Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
